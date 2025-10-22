@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "app/api/vtop/login/route.js": {
+      "maxDuration": 30
+    },
+    "app/api/mess/route.js": {
+      "maxDuration": 30
+    },
+    "app/api/generate/route.js": {
+      "maxDuration": 30
+    }
+  },
+  "regions": ["bom1"]
+}

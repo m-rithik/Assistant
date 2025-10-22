@@ -1,0 +1,25 @@
+{
+  "name": "openai-quickstart-node",
+  "version": "1.0.0",
+  "description": "node quickstart for OpenAI APIs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@clerk/nextjs": "^6.32.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
+    "jsdom": "^27.0.1",
+    "next": "^14.2.3",
+    "node": "^24.8.0",
+    "openai": "^4.79.2",
+    "puppeteer": "^24.25.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "type": "module"
+}
